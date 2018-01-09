@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "221350114728",
+    "firebase_url": "https://fir-recyclertutorial.firebaseio.com",
+    "project_id": "fir-recyclertutorial",
+    "storage_bucket": "fir-recyclertutorial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221350114728:android:3c35b65b258bc660",
+        "android_client_info": {
+          "package_name": "radautiul_civic.firebaserecyclertutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221350114728-v1uvlqu0dqege5qcnle9gd630svtiokr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "radautiul_civic.firebaserecyclertutorial",
+            "certificate_hash": "8b865929f71b7034db309a0d82301b871b27d650"
+          }
+        },
+        {
+          "client_id": "221350114728-86n16j63lfa7rmc13h2kg8mjfq8kaepc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRO-StiWf3--79WwQ-p8jN64k47EoKe94"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221350114728-86n16j63lfa7rmc13h2kg8mjfq8kaepc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
