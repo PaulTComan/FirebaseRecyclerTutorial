@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
                         .load(storageReference)
                         .into(viewHolder.postIV);
 
+                viewHolder.setHeadline(model.getHeadline());
                 viewHolder.setNumLikes(model.getNumLikes());
                 viewHolder.postLikeIV.setOnClickListener(new View.OnClickListener(){
                     @Override

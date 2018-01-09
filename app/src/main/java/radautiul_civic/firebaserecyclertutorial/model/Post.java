@@ -7,18 +7,18 @@ package radautiul_civic.firebaserecyclertutorial.model;
 public class Post {
     private String imageUrl;
     private long numLikes;
-    private String nameHeadline;
+    private String headline;
     private String UID;
 
 
     public Post(){
     }
 
-    public Post(String imageUrl, long numLikes, String UID, String nameHeadline) {
+    public Post(String imageUrl, long numLikes, String UID, String headline) {
         this.imageUrl = imageUrl;
         this.numLikes = numLikes;
         this.UID = UID;
-        this.nameHeadline = nameHeadline;
+        this.headline = headline;
     }
 
     public String getUID() {
@@ -45,8 +45,12 @@ public class Post {
         this.numLikes = numLikes;
     }
 
-    public void setHeadline(String nameHeadline) {  //Headline
-        this.nameHeadline = nameHeadline;           //Headline
+    public String getHeadline() {
+        return headline;
+    }
+
+    public void setHeadline(String headline) {
+        this.headline = headline;
     }
 
 
